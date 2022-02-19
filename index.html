@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Momentum</title>
+    <!-- Importing our own stylesheet -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <!-- Login Form -->
     <form id="login-form" class="hidden">
       <input
         required
@@ -17,12 +19,18 @@
       />
       <input type="submit" value="Log In"></input>
     </form>
+
+    <!-- Clock Display -->
     <h1 id="clock">00:00:00</h1>
+
+    <!-- Greeting Text -->
     <h1 id="greeting" class="hidden"></h1>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
+
+    <!-- JavaScript Files -->
     <script src="./javascript/greeting.js"></script>
     <script src="./javascript/clock.js"></script>
     <script src="./javascript/quotes.js"></script>

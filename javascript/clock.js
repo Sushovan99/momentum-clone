@@ -10,5 +10,7 @@ function getClock() {
 
   clock.innerText = `${hours}:${minutes}:${seconds}`;
 }
+
+// Calling the function immediately for first time to prevent any delay
 getClock();
 setInterval(getClock, 1000);
